@@ -1,2 +1,3 @@
-for i in range(5):
-    print("Chat")
+string="abhi"
+for i in range(len(string)-1,-1,-1):
+    print(string[i],end=" ")
