@@ -4,12 +4,13 @@ for i in range(len(string)-1,-1,-1):
     print(string[i],end=" ")
 print("\n")
 
-
+print("\n")
+print("Reversing a string")
 string="Chatterjee"
 stre=""
 for i in range(len(string)-1,-1,-1):
     stre=stre+string[i]+" "
-print(str)
+print(stre)
 
 numbers = [123,121]
 for i in range(len(numbers)):
@@ -17,6 +18,7 @@ for i in range(len(numbers)):
 print(numbers)
 
 print("\n")
+print("Reversing a list and checking the palindrome")
 list=[513,121,123,141]
 list_1=[]
 for i in list:
@@ -31,6 +33,12 @@ for t in range(len(list)):
     else:
         print("Not palindrome -->",list[t])
 
-
-
-
+print("\n")
+print("Manually reversing a Number")
+num=122
+sum=0
+while(num>0):
+    a=num%10
+    sum=sum*10+a
+    num=num//10
+print("The Number is reversed-->",sum)
