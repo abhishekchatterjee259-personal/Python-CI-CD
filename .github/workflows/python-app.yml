@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "Dev"]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "Dev" ]
 
 permissions:
   contents: read
@@ -31,4 +31,4 @@ jobs:
   
     - name: Test with pytest
       run: |
-        python sample.py
+        python Reverse.py
