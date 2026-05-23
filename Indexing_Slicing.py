@@ -7,4 +7,3 @@ for i in s:
 print(str)
 
 
-print("ra")
