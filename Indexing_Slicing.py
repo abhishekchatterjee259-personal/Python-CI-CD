@@ -7,4 +7,4 @@ for i in s:
 print(str)
 
 
-print("Irina")
+print("agit rina")
