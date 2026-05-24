@@ -32,9 +32,10 @@ jobs:
 
   
     - name: Test with pytest
-      uses: actions/setup-python@v3
-      with:
-        run: |
-          python Reverse.py
-          python Indexing_Slicing.py
-        
+      run: |
+        python Reverse.py
+        python Indexing_Slicing.py
+
+
+     
+ 
